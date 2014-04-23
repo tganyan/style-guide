@@ -1,0 +1,139 @@
+@import url(http://fonts.googleapis.com/css?family=Raleway:400,900,800,700,600,500,300,200,100);
+@import url(http://fonts.googleapis.com/css?family=PT+Mono);
+@import url(http://fonts.googleapis.com/css?family=Roboto+Slab:400,700,300,100);
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+.expanding {
+  display: block; }
+
+.expand-jade-code, .expand-sass-code {
+  cursor: pointer; }
+
+.jade-code, .sass-code {
+  overflow: hidden;
+  max-height: 50px;
+  position: relative;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  transition: all 0.5s; }
+
+.open {
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  transition: all 0.5s;
+  max-height: 700px; }
+
+ul.swatches {
+  list-style: none; }
+
+.red-swatch > code {
+  background-color: #F1432A; }
+
+.orange-swatch {
+  background-color: #F4B864; }
+
+.yellow-swatch {
+  background-color: #F2E94E; }
+
+.green-swatch {
+  background-color: #06BC5A; }
+
+.teal-swatch {
+  background-color: #3EBFB9; }
+
+.swatches > code {
+  display: block; }
+
+code {
+  font-family: "PT Mono"; }
+
+h1 {
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 3em; }
+
+h2 {
+  font-family: "Roboto Slab";
+  font-weight: 700; }
+
+p {
+  font-family: "Roboto Slab";
+  font-weight: 300; }
+
+a {
+  font-family: "Roboto Slab";
+  font-weight: 500;
+  text-decoration: none;
+  color: #3EBFB9; }
+
+h3, h4, h5, h6 {
+  font-family: "Raleway";
+  font-weight: 700; }
+
+@font-face {
+  font-family: 'icomoon';
+  src: url('fonts/icomoon.eot?829n0l');
+  src: url('fonts/icomoon.eot?#iefix829n0l') format('embedded-opentype'), url('fonts/icomoon.woff?829n0l') format('woff'), url('fonts/icomoon.ttf?829n0l') format('truetype'), url('fonts/icomoon.svg?829n0l#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal; }
+
+.icon-mail:after, .icon-googleplus:after, .icon-facebook:after, .icon-twitter:after, .icon-feed:after, .icon-vimeo:after, .icon-flickr:after, .icon-dribbble:after, .icon-github:after {
+  font-family: 'ico-fonts';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased; }
+
+.icon-mail:after {
+  content: '/e600'; }
+
+.icon-googleplus:after {
+  content: '/e601'; }
+
+.icon-facebook:after {
+  content: '/e602'; }
+
+.icon-twitter:after {
+  content: '/e603'; }
+
+.icon-feed:after {
+  content: '/e604'; }
+
+.icon-vimeo:after {
+  content: '/e605'; }
+
+.icon-flickr:after {
+  content: '/e606'; }
+
+.icon-dribbble:after {
+  content: '/e607'; }
+
+.icon-github:after {
+  content: '/e608'; }
+
+nav {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 18.96686%;
+  position: fixed; }
+  nav:last-child {
+    margin-right: 0; }
+
+nav a {
+  display: block; }
+
+main {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 78.67549%;
+  margin-left: 21.32451%; }
+  main:last-child {
+    margin-right: 0; }
+
+/*# sourceMappingURL=application.css.map */
